@@ -25,6 +25,8 @@ public class ConsoleLog implements ActionListener {
        AbstractButton botonPordefecto = (AbstractButton) e.getSource();
         mensaje += botonPordefecto.getText();
 
-        System.out.println(mensaje);     
+        System.out.println(mensaje);
+
+
     }
 }
